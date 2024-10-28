@@ -1,6 +1,6 @@
 import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
-import HeroOne from "../assets/HeroOne.jpg";
+import hero from "../assets/HeroOne.jpg";
 import HeroTwo from "../assets/HeroTwo.png";
 
 
@@ -25,7 +25,7 @@ const HeroSection = () => {
           </div>
 
           <div className="w-1/2 relative">
-          <img src={HeroOne} alt="" />
+          <img src={hero} alt="" />
           <img src={HeroTwo} className="absolute h-44 -left-28 top-52" alt="" />
           </div>
         </div>
