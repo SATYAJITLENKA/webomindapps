@@ -6,7 +6,7 @@ import sun from "../assets/sun.jpg";
 import woe from "../assets/woe.jpg";
 import tiger from "../assets/tiger.jpg";
 import fl from "../assets/fl.jpg";
-import heroTwo from "../assets/heroTwo.png";
+import heroimgtwo from "../assets/heroimgtwo.png";
 import { IoIosArrowForward } from "react-icons/io";
 import { useEffect } from "react";
 
@@ -137,10 +137,10 @@ const AnimationPage = () => {
             />
           </div>
           <div className="left-box h-[150px] w-[160px]  absolute left-20 top-10">
-            <img src={heroTwo} alt="" className="h-full w-full" />
+            <img src={heroimgtwo} alt="" className="h-full w-full" />
           </div>
           <div className="right-box h-[150px] w-[160px]  absolute right-20 -bottom-40">
-            <img src={heroTwo} alt="" className="h-full w-full" />
+            <img src={heroimgtwo} alt="" className="h-full w-full" />
           </div>
         </div>
         <div className="box-two w-1/2 flex items-center flex-col justify-center">
