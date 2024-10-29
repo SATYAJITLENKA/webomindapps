@@ -1,4 +1,3 @@
-import React from "react";
 import LogoA from "../assets/LogoA.png";
 import { IoIosArrowForward } from "react-icons/io";
 
@@ -24,7 +23,7 @@ const Navbar = () => {
           </li>
           <li>
             <button className="flex items-center gap-2 bg-[#EE1B30] py-2 px-3 text-white rounded-full">
-               Schedule Demo <IoIosArrowForward />
+              Schedule Demo <IoIosArrowForward />
             </button>
           </li>
         </ul>

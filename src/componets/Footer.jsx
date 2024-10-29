@@ -1,11 +1,11 @@
-import React from "react";
+
 import { IoIosArrowForward } from "react-icons/io";
 import { FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 import LogoA from "../assets/LogoA.png";
 
 const Footer = () => {
   return (
-    <div className="h-screen bg-[#011740] text-center text-white overflow-hidden">
+    <div className="h-[110vh] bg-[#011740] text-center text-white overflow-hidden">
       <h4 className="text-4xl  font-medium pt-12">
         Leverage technology to streamline <br /> credit-linked insurance
       </h4>
@@ -14,7 +14,7 @@ const Footer = () => {
       </p>
       <div className="flex items-center justify-center">
         <button className="flex items-center gap-1 bg-white py-2 px-4 text-[#003DB8] font-medium rounded-full">
-           Lets Talk <IoIosArrowForward />
+          Lets Talk <IoIosArrowForward />
         </button>
       </div>
 
@@ -59,7 +59,7 @@ const Footer = () => {
           </div>
         </div>
         <hr className="my-4 border-gray-300" />
-        <div className="px-6 grid grid-cols-2 md:grid-cols-4 gap-4 ">
+        <div className="px-6 grid grid-cols-2 md:grid-cols-4 gap-4 pb-10">
           <div className="flex flex-col gap-3 items-center justify-center text-start mt-9">
             <h4 className="font-bold -ms-9 text-black">Products</h4>
             <ul className="flex flex-col gap-3">

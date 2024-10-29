@@ -1,7 +1,5 @@
-import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import flower from "../assets/flower.jpg";
 import light from "../assets/light.jpg";
 import rose from "../assets/rose.jpg";
 import sun from "../assets/sun.jpg";
@@ -10,6 +8,7 @@ import tiger from "../assets/tiger.jpg";
 import fl from "../assets/fl.jpg";
 import heroTwo from "../assets/heroTwo.png";
 import { IoIosArrowForward } from "react-icons/io";
+import { useEffect } from "react";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -99,10 +98,6 @@ const AnimationPage = () => {
       footerTrigger.kill();
       ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
     };
-
-    return () => {
-      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-    };
   }, []);
 
   return (
@@ -156,7 +151,7 @@ const AnimationPage = () => {
                 <span className="text-[#EE1B30]">one platform</span>
               </h4>
               <p className="mt-4">
-                Manage your insurance business seamlessly using Riskcovry's{" "}
+                Manage your insurance business seamlessly using Riskcovrys{" "}
                 <br /> assurance platform. Increase revenue, expand product{" "}
                 <br /> offerings.
               </p>
@@ -167,7 +162,7 @@ const AnimationPage = () => {
                 <span className="text-[#EE1B30]">one platform</span>
               </h4>
               <p className="mt-4">
-                Manage your insurance business seamlessly using Riskcovry's{" "}
+                Manage your insurance business seamlessly using Riskcovrys{" "}
                 <br /> assurance platform. Increase revenue, expand product{" "}
                 <br /> offerings.
               </p>
@@ -175,7 +170,7 @@ const AnimationPage = () => {
           </div>
           <div className="flex justify-end mt-7 ms-56">
             <button className="flex items-center gap-2 bg-[#EE1B30] py-2 px-3 text-white rounded-full">
-               Schedule Demo <IoIosArrowForward />
+              Schedule Demo <IoIosArrowForward />
             </button>
           </div>
         </div>

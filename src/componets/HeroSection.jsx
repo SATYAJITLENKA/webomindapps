@@ -1,6 +1,6 @@
-import React from "react";
+
 import { IoIosArrowForward } from "react-icons/io";
-import hero from "../assets/HeroOne.jpg";
+import heroimg from "../assets/heroimg.jpg";
 import HeroTwo from "../assets/HeroTwo.png";
 
 
@@ -20,12 +20,12 @@ const HeroSection = () => {
               offerings.
             </p>
             <button className="flex items-center gap-2 bg-[#EE1B30] mt-6 py-2 px-3 text-white rounded-full">
-               Schedule Demo <IoIosArrowForward />
+              Schedule Demo <IoIosArrowForward />
             </button>
           </div>
 
           <div className="w-1/2 relative">
-          <img src={hero} alt="" />
+          <img src={heroimg} alt="" />
           <img src={HeroTwo} className="absolute h-44 -left-28 top-52" alt="" />
           </div>
         </div>
